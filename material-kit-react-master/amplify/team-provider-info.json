@@ -5,7 +5,7 @@
             "UnauthRoleArn": "arn:aws:iam::853493849304:role/materialkitreactmast-20190901140049-unauthRole",
             "AuthRoleArn": "arn:aws:iam::853493849304:role/materialkitreactmast-20190901140049-authRole",
             "Region": "us-east-1",
-            "DeploymentBucketName": "materialkitreactmast-20190901140049-deployment",
+            "DeploymentBucketName": "asbsolutionsgroup",
             "UnauthRoleName": "materialkitreactmast-20190901140049-unauthRole",
             "StackName": "materialkitreactmast-20190901140049",
             "StackId": "arn:aws:cloudformation:us-east-1:853493849304:stack/materialkitreactmast-20190901140049/d09351c0-ccea-11e9-b119-127a71eef55e"
