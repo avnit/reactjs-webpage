@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* Material Kit React - v1.7.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/material-kit-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 // nodejs library to set properties for components
 import PropTypes from "prop-types";
@@ -59,6 +43,12 @@ class LoginPage extends React.Component {
       700
     );
   }
+  raiseInvoiceClicked(){
+   // your axios call here
+    const url = '~/landing-page';
+   // route to new page by changing window.location
+   window.open(url, "_blank") //to open new page
+ }
   render() {
     const { classes, ...rest } = this.props;
     return (
@@ -167,7 +157,9 @@ class LoginPage extends React.Component {
                       />
                     </CardBody>
                     <CardFooter className={classes.cardFooter}>
-                      <Button simple color="primary" size="lg">
+                      <Button simple color="primary" size="lg"
+                      onClick={this.raiseInvoiceClicked}
+                      >
                         Get started
                       </Button>
                     </CardFooter>
