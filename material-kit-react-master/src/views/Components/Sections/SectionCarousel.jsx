@@ -26,13 +26,13 @@ class SectionCarousel extends React.Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: false
+      autoplay: true
     };
     return (
       <div className={classes.section}>
         <div className={classes.container}>
           <GridContainer>
-            <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
+            <GridItem xs={1024} sm={500} md={900} className={classes.marginAuto}>
               <Card carousel>
                 <Carousel {...settings}>
                   <div>
