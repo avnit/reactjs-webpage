@@ -56,7 +56,7 @@ class LoginPage extends React.Component {
         <Header
           absolute
           color="transparent"
-          brand="Material Kit React"
+          brand="ASB Solutions"
           rightLinks={<HeaderLinks />}
           {...rest}
         />
@@ -78,28 +78,28 @@ class LoginPage extends React.Component {
                       <div className={classes.socialLine}>
                         <Button
                           justIcon
-                          href="#pablo"
-                          target="_blank"
+                          href="#landingPage"
+                          target="_self"
                           color="transparent"
-                          onClick={e => e.preventDefault()}
+                          onClick={this.raiseInvoiceClicked}
                         >
                           <i className={"fab fa-twitter"} />
                         </Button>
                         <Button
                           justIcon
-                          href="#pablo"
-                          target="_blank"
+                          href="#landingPage"
+                          target="_self"
                           color="transparent"
-                          onClick={e => e.preventDefault()}
+                            onClick={this.raiseInvoiceClicked}
                         >
                           <i className={"fab fa-facebook"} />
                         </Button>
                         <Button
                           justIcon
-                          href="#pablo"
-                          target="_blank"
+                          href="#landingPage"
+                          target="_self"
                           color="transparent"
-                          onClick={e => e.preventDefault()}
+                            onClick={this.raiseInvoiceClicked}
                         >
                           <i className={"fab fa-google-plus-g"} />
                         </Button>
